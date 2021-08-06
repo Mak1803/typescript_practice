@@ -1,5 +1,5 @@
 // type Func<A extends undefined ?,R> = (arg:A)=> R;
-type Func<A, R> = undefined extends A? (arg?:A)=>R : (arg:A)=>R;
+type Func<A, R> = undefined extends A ? (arg?:A)=>R : (arg:A)=>R;
 // T extends U → A が undefined を含むなら
 
 // 使用例
